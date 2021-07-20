@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Samaiya Howard
+# date: 7/16/2021
 
 # -------------------- Section 1 -------------------- #
 
@@ -24,6 +24,10 @@ print(
 #   elia
 #
 # Write Code Below #
+name = 'samaiya'
+for i in range(5):
+    print(name)
+print()
 
 
 # 2 - for Loop | Printing i
@@ -39,7 +43,8 @@ print(
 #   4
 #
 # Write Code Below #
-
+for i in range(5):
+    print(i)
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -59,6 +64,11 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
+num = int(input('enter a number: '))
+symbol = input('enter a symbol: ')
+for i in range(num):
+    print(symbol * i)
+
 
 
 # ---------- Part 2 | Direct Access ---------- #
@@ -82,7 +92,9 @@ print(
 #   a
 #
 # Write Code Below #
-
+name = input('enter your name: ')
+for char in name:
+    print(char)
 
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
@@ -105,7 +117,9 @@ print(
 #   e
 #
 # Write Code Below #
-
+name = input('enter your name: ')
+for char in name:
+    print(char)
 
 # ---------- Part 3 | range() variations ---------- #
 print(
@@ -142,7 +156,9 @@ print(
 #   24
 #
 # Write Code Below #
-
+for i in range(10,25):
+    print(i)
+print()
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -162,4 +178,5 @@ print(
 #   -4
 #
 # Write Code Below #
-
+for negative in range(5,-5,-1):
+    print(negative)

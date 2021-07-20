@@ -19,3 +19,12 @@ print(
 #   1, 1, 2, 3, 5, 8
 #
 # Write Code Below #
+
+# using variables, keep track of the last two numbers
+# once you've calculated the next number, then you adjust the last two numbers
+
+n = int(input('enter the size limit: '))
+num = 1
+for i in range(num):
+    n += 1
+    print(i + n)

@@ -1,26 +1,26 @@
-Name:
-Date:
+Name: Samaiya Howard
+Date: 7/16/2021
 
 1 - What is the structure of a for loop?
-
+for i in range(n):
 
 2 - When should I use a for loop?
-
+When you have a repetitive code.
 
 3 - Why are loops useful to us?
-
+Loops are useful to us because it organizes the code and make the code easier to use.
 
 4 - What are the different variations of the range() function?
-
+start, stop, and step
 
 5 - What are the two methods of creating a for loop?
-
+the iterator vairable and 'n'(the vairable of your choice)
 
 6 - What is the iterator variable? Does it have to be named i?
-
+the iterator vairable stores each value of the sequence. It does not have to be 'i' it can be any vairable that you choose.
 
 7 - Can you loop through a string?
-
+yes
 
 8 - What are examples of real life loops that you encounter?
-
+Music playlists, refreshing your page on your computer.
